@@ -1,0 +1,291 @@
+/* CSS RESET*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration:none
+
+}
+a:link {text-decoration:none; color:#646464;}
+a:visited {text-decoration:none; color:#646464;}
+a:active {text-decoration:none; color:#646464;}
+a:hover {text-decoration:none; color:#646464;}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*main**/
+
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #4d6c8b;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+.header div {
+  padding: 72px 0;
+}
+
+.header span {
+  font-size: 4.1rem;
+  color : #FFFFFF;
+}
+
+.wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.left_Nav {
+  width: 258px;
+  height: auto;
+  float: left;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.right_Section {
+  width: 1060px;
+  height: auto;
+  float: left;
+}
+
+.left_Nav > div {
+  width: 100%;
+  height: auto;
+  padding: 10px 10px;
+  border-top: 1px solid #ddd;
+}
+
+.left_Nav > div > span {
+  font-size : 16px;
+  font-weight: bold;
+}
+
+.left_Nav .sub_menu{
+  padding: 0px 0px;
+}
+
+.left_Nav .sub_menu .span_wrap {
+  width: 100%;
+}
+
+.left_Nav .sub_menu .span_wrap:hover {
+  background-color: #3c9;
+  color: #FFFFFF;
+}
+
+.left_Nav .sub_menu .span_wrap > div {
+  width: 150px;
+  height: auto;
+  line-height: 200%;
+  padding: 0 15px;
+}
+
+
+.right_Section .Num1 {
+  padding: 20px 30px;
+}
+
+.right_Section .Num2 {
+  padding: 20px 30px;
+  display: none;
+}
+
+.right_Section .Num3 {
+  padding: 20px 30px;
+  display: none;
+}
+
+.right_Section .Num4 {
+  padding: 20px 30px;
+  display: none;
+}
+
+.right_Section .Num5 {
+  padding: 20px 30px;
+  display: none;
+}
+
+.right_Section .Num6 {
+  padding: 20px 30px;
+  display: none;
+}
+
+.right_Section .Num7 {
+  padding: 20px 30px;
+  display: none;
+}
+
+.right_Section .Num8 {
+  padding: 20px 30px;
+  display: none;
+}
+
+.right_Section .Num9 {
+  padding: 20px 30px;
+  display: none;
+}
+
+.right_Section .Num10 {
+  padding: 20px 30px;
+  display: none;
+}
+
+.right_Section .title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.right_Section .form-group {
+  width: 400px;
+  float: left;
+}
+
+
+.right_Section .form-control {
+  width: 90%;
+}
+
+.right_Section .btn-primary {
+  margin-left: 705px;
+  margin-top: 25px;
+}
+
+.Num6 .btn-primary{
+  float: right;
+  margin-right: 240px;
+}
+
+.Num8 .btn-primary{
+  float: right;
+  margin-right: 240px;
+}
+
+.Num9 .btn-primary{
+  float: right;
+  margin-right: 240px;
+}
+
+thead input {
+        width: 100%;
+    }
+
+.Num4 .table {
+  width: 100% !important;
+}
+
+.Num4 th:last-child {
+  display: none;
+}
+.Num4 td:last-child {
+  display: none;
+}
+
+.mid_Nav {
+  height: 40px;
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+}
+.mid_Nav span {
+  line-height: 40px;
+  padding-left: 15px;
+  color: #666;
+}
+.Nav_2, .Nav_3, .Nav_4, .Nav_5, .Nav_6, .Nav_7, .Nav_8, .Nav_9, .Nav_10{
+  display: none;
+}
+.left_Nav > div:first-child {
+  border-top: 0px solid #FFF !important;
+}
+.left_Nav > div:last-child {
+  border-bottom: 1px solid #ddd;
+}
